@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data — may contain PII or business-sensitive data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models — large binaries
+outputs/models/*
+!outputs/models/.gitkeep
+
+# Original monolithic notebook (portfolio use — kept locally only)
+最終課題（ARG).ipynb
+
+# Internal project management doc
+CLAUDE.md
+
+# macOS
+.DS_Store

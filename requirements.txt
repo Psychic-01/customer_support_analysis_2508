@@ -1,0 +1,17 @@
+# notebooks/01_eda.ipynb
+numpy>=2.4
+pandas>=3.0
+matplotlib>=3.9
+seaborn>=0.13
+japanize-matplotlib>=1.1  # 日本語フォント対応
+scikit-learn>=1.5
+
+# notebooks/02_baseline_models.ipynb
+statsmodels>=0.14
+prophet>=1.1
+xgboost>=2.1
+
+# notebooks/03_feature_engineering_tuning.ipynb
+optuna>=3.6
+shap>=0.46
+joblib>=1.4
